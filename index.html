@@ -7,7 +7,68 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+  <section class="cintact">
+      <div class="max-length">
+        <div class="trees">
+        <h1>Apply to be a tree planter</h1>
+
+        <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+        </div>
+
+        <form class="push-0" method="POST" action="https://formspree.io/lyal0007@algonquincollege.com">
+          <h2>Personal details</h2>
+          <div class="grid">
+            <div class="name push unit xs-1 m-1 l-1-2">
+              <label for="name">Full name</label>
+              <input id="name" required>
+               <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            </div>
+            <div class="age push unit xs-1 m-1 l-1-2">
+              <label for="nickname">What should we call you?</label>
+              <input id="nickname" name="nickname" required>
+              <p>What all your friends call you, e.g. “Liz”.</p>
+            </div>
+            <div class="email push unit xs-1 m-1 l-1-2">
+              <label for="date">Date of birth</label>
+              <input id="date" type="date" placeholder="yyyy-mm-dd" required>
+            </div>
+            <div class="physical push unit xs-1 m-1 l-1-2">
+              <label for="subject">T-shirt size</label>
+              <select id="subject" placeholder="Select a t-shirt size" name="_subject">
+                <option>Super-human!</option>
+                <option>Fit as a fiddle</option>
+                <option>Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
+          </div>
+          <div class="push unit xs-1">
+            <label for="address">Address</label>
+            <textarea id="address" name="message" required></textarea>
+          </div>
+
+          <fieldset>
+            <legend class="italic giga">Mission statement</legend>
+          </fieldset>
+
+          <div class="push">
+            <label for="details">Why do you want to go to Mars?</label>
+            <textarea id="details" name="message" required></textarea>
+          </div>
+
+          <div>
+            <button class="btn btn-dark mega" type="submit">Register for the trip!</button>
+          </div>
+
+          <input type="hidden" name="_subject" value="Request to join the mission">
+
+        </form>
+      </div>
+    </section>
+
+  </body>
+  </html>
