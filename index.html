@@ -62,30 +62,57 @@
             </div>
 
             <div class="email push unit xs-1 m-1 l-1-2">
-              <label for="email">Email</label>
-              <input id="email" type="email" required>
+              <label for="Phone number">Phone number (optional)</label>
+              <input id="tel" type="tel" required>
             </div>
           </div>
 
-          <div class="push unit xs-1">
-            <label for="address">Address</label>
-            <textarea id="address" name="message" required></textarea>
-          </div>
+          <hr>
+            <h2>Address</h2>
+            <div class="grid">
+              <div class="name push unit xs-1 m-1 l-1-2">
+                <label for="st address">Street address</label>
+                <input id="st address" required>
+              </div>
 
-          <fieldset>
-            <legend class="italic giga">Mission statement</legend>
-          </fieldset>
+              <div class="age push unit xs-1 m-1 l-1-2">
+                <label for="citi">City</label>
+                <input id="citi" name="citi" required>
+              </div>
 
-          <div class="push">
-            <label for="details">Why do you want to go to Mars?</label>
-            <textarea id="details" name="message" required></textarea>
-          </div>
+              <div class="physical push unit xs-1 m-1 l-1-2">
+                <label for="places">Province</label>
+                <select id="places" name="places">
+                  <option>Select a province</option>
+                  <option>Alberta</option>
+                  <option>British Columbia</option>
+                  <option>Manitoba</option>
+                  <option>New Brunswick</option>
+                  <option>Newfoundland & Labrador</option>
+                  <option>Northwest Territories</option>
+                  <option>Nova Scotia</option>
+                  <option>Nunavut</option>
+                  <option>Ontario</option>
+                  <option>Prince Edward Island</option>
+                  <option>Québec</option>
+                  <option>Saskatchewan</option>
+                  <option>Yukon</option>
+                </select>
+              </div>
 
-          <div>
-            <button class="btn btn-dark mega" type="submit">Register for the trip!</button>
-          </div>
+              <div class="email push unit xs-1 m-1 l-1-2">
+                <label for="p code">Postal code</label>
+                <input id="p code" type="p code" required>
+              </div>
+            </div>
 
-          <input type="hidden" name="_subject" value="Request to join the mission">
+            <hr>
+
+            <h2>What activities are you interested in helping with?</h2>
+            <div class="email push unit xs-1 m-1 l-1-2">
+              <label for="checkbox">Digging holes</label>
+              <input id="checkbox" type="checkbox" required>
+            </div>
 
         </form>
       </div>
