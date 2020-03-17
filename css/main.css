@@ -1,6 +1,5 @@
 html {
   font-family: "Noto Serif", serif;
-  border-color: #6e8c62;
 }
 
 .trees {
@@ -13,4 +12,10 @@ footer {
   background-color: #70ad55;
   width: 100%;
   color: #fff;
+}
+
+input,
+select,
+textarea, {
+  border-color: #6e8c62;
 }
