@@ -21,3 +21,28 @@ input[type="radio"] + label::before,
 input[type="checkbox"] + label::before {
 border-color: #6e8c62;
 }
+
+h1{
+  margin-bottom: 15px;
+}
+
+.world {
+  margin-top: -5px;
+  padding-bottom: 5px;
+}
+
+.personal {
+  margin-bottom: 14px;
+}
+
+.physical {
+  padding-top: 23px;
+}
+
+.letter {
+  padding-top: 23px;
+}
+
+.halleloo {
+  padding-top: 23px;
+}
