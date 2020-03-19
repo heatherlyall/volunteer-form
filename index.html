@@ -24,26 +24,28 @@
         <div class="max-length">
 
       <form class=" gutter-1-2" method="POST" action="https://formspree.io/lyal0007@algonquincollege.com">
-        <h2 class=" personal tera bold">Personal details</h2>
-        <div class="grid">
-          <div class="name pad-t unit xs-1 m-1 l-1-2">
-            <label for="name">Full name</label>
-            <input id="name" required>
-            <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
-          </div>
 
-          <div class="age unit pad-t-1-4 xs-1 m-1 l-1-2">
+        <fieldset class="pad-t-1-2">
+    <legend class="gutter-1-2 giga push">Personal details</legend>
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
+        <label for="full-name" class="push-1-8">Full name</label>
+        <input id="full-name" class="push-1-8" required>
+        <p class="push-0 micro italic">Your full legal name, for insurance purposes, e.g. “Elizabeth&nbsp;Bradley”.</p>
+      </div>`
+
+          <div class="age unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
             <label for="nickname">What should we call you?</label>
             <input id="nickname" name="nickname" required>
             <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
           </div>
 
-          <div class="email pad-t-1-4 unit xs-1 m-1 l-1-2">
+          <div class="email unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
             <label for="date">Date of birth</label>
             <input id="date" type="date" required>
           </div>
 
-          <div class="physical unit xs-1 m-1 l-1-2">
+          <div class="physical unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
             <label for="subject">T-shirt size</label>
             <select id="subject" name="_subject">
               <option>Select a t-shirt size</option>
@@ -60,19 +62,22 @@
             </select>
           </div>
 
-          <div class="letter unit xs-1 m-1 l-1-2">
+          <div class="letter unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
             <label for="email">Email</label>
             <input id="email" type="email" required>
           </div>
 
-          <div class="halleloo unit xs-1 m-1 l-1-2">
+          <div class="halleloo unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
             <label for="phone">Phone number (optional)</label>
             <input id="phone" type="tel" required>
           </div>
         </div>
+      </fieldset>
 
         <hr>
-        <h2 class="tera bold pad-t">Address</h2>
+
+        <fieldset class="pad-t-1-2">
+    <legend class="gutter-1-2 giga push">Address</legend>
         <div class="grid">
           <div class="name push-2 unit xs-1 m-1 l-1-2">
             <label for="staddress">Street address</label>
