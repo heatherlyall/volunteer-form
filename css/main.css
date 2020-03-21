@@ -2,6 +2,10 @@ html {
   font-family: "Noto Serif", serif;
 }
 
+h1 {
+  margin: 0;
+}
+
 .trees {
   background-color: #70ad55;
   width: 100%;
