@@ -2,7 +2,7 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-.no-auto-margins{
+.no-auto-margins {
   margin-left: 0;
   margin-right: 0;
 }
@@ -30,7 +30,7 @@ select,
 textarea,
 input[type="radio"] + label::before,
 input[type="checkbox"] + label::before {
-border-color: #6e8c62;
+  border-color: #6e8c62;
 }
 
 textarea {
