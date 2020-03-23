@@ -2,29 +2,27 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-h1 {
-  margin: 0;
+.no-auto-margins{
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.trees {
+fieldset {
+  border: 0;
+}
+
+.section-primary {
   background-color: #70ad55;
-  width: 100%;
   color: #fff;
 }
 
-footer {
-  background-color: #70ad55;
-  width: 100%;
-  color: #fff;
+.flag-optional {
+  color: #70ad55;
 }
 
-.huggerio {
-  margin: 0;
-  padding-bottom: 1.7em;
-}
-
-.apply {
-  margin-left: 7em;
+hr {
+  border-color: #70ad55;
+  opacity: .3;
 }
 
 input,
@@ -35,6 +33,11 @@ input[type="checkbox"] + label::before {
 border-color: #6e8c62;
 }
 
-h1{
-  margin-bottom: 15px;
+textarea {
+  min-height: 10em;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
 }
